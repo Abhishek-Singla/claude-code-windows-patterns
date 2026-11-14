@@ -1,0 +1,16 @@
+{
+  "routines": [
+    {
+      "name": "daily-report",
+      "description": "Builds the daily report from downloaded files",
+      "sources": ["C:\\Automation\\daily-report\\scripts"],
+      "include": ["*.ps1", "*.py", "*.md"]
+    },
+    {
+      "name": "weekly-cleanup",
+      "description": "Removes scratch files older than 14 days",
+      "sources": ["C:\\Automation\\weekly-cleanup\\cleanup.ps1"],
+      "include": ["*.ps1"]
+    }
+  ]
+}
